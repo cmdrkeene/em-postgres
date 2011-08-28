@@ -8,7 +8,7 @@ spec = Gem::Specification.new do |s|
   s.description = 'Async PostgreSQL client API for Ruby/EventMachine'
   s.has_rdoc = false
   s.authors = ["Jason Toy"]
-  s.add_dependency('eventmachine', '>= 0.12.9')
+  s.add_dependency('eventmachine')
 
   # git ls-files
   s.files = %w[
